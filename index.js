@@ -1,1 +1,10 @@
 // Write your code here!
+const mainTag = document.querySelector("#main");
+mainTag.remove();
+
+const newHeader = document.createElement("h1");
+newHeader.setAttribute("id", "victory");
+newHeader.innerHTML = "Sam is the champion";
+
+document.body.append(newHeader);
+
